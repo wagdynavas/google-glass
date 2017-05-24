@@ -1,0 +1,60 @@
+<!DOCTIPY HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta  name="description" content="Google Glass"/>
+        <meta name="viewport" content="width=device=width, initial-scale=1.0"/>
+        <title>Google Glass</title>
+        <link href="_css/specs.css" rel="stylesheet"/>
+        <link href="_css/estilo.css" rel="stylesheet"/>
+        <script src="_javascript/funcoes.js" type="text/javascript"></script>
+
+    </head>
+ 
+    <body>
+       <div class="interface">
+           <header class="topo">
+            <h1>Google Glass</H1>
+            <p class="tagline-topo">A revolução do Google está chegando</p>
+            <img id="oculos-menu" src="_imagens/especificacoes.png" alt="Google Glass" title="Google Glass"/>
+            <nav class="menu">
+                <h1>Menu Principal</h1>
+                <ul class="ul-menu">
+                    <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="index.html" class="button" title="Google Glass"> Home</a></li>
+                    <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html" class="button"  title="Especificações Sobre o Google Glass">Especificações</a></li>
+                    <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fotos.html" class="button"  title="Fotos sobre o Google Glass">Fotos</a></li>
+                    <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="multimidia.html" class="button"  title="Multimidias Sobre O Google Glass">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="fale-conosco.html" class="button"  title="Contatos">Fale conosco</a></li>
+                </ul>
+            </nav>
+
+        </header>
+           <section id="main-spec">  
+               <header class="ti">             
+                   <p class=tagline-ti> Glass > Especificações</p>
+                    <h1>Raio-X no Google Glass</h1>
+                    <h2>por Wagdy Navas</h2>
+                    <p class=tagline-ti2> Atualizado em 18/Maio/2016</p>
+               </header>
+               <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+               <article>
+                   <img title="Oculos Google Glass Com Links" alt="Oculos Google Glass Com Links" src="_imagens/glass-esquema-marcado.jpg" usemap="#mymap">
+               <map name="mymap">
+                   <area shape="poly" coords="183,219,261,209,263,243,186,256" href="google-glass.html#tela" target="window" alt="Tela Do Google Glass">
+                   <area shape="circle" coords="158,244,12" href="google-glass.html#camera" target="window" alt="Camera do Google Glass">
+                   <area shape="circle" coords="76,52,12" href="google-glass.html#bateria" target="window" alt="Bateria do Google Glass">
+                   <area shape="poly" coords="28,142,81,201,81,247,25,164" href="google-glass.html#sensor" target="window" alt="Sensor do Google Glass">
+               </map>
+               <iframe src="google-glass.html" name="window" class="frame-spec"></iframe>
+               </article>
+           </section>
+           <footer>
+               <p> &copy; Copyright  2016 - by Wagdy Navas<br></p>
+                    <a href="" title=" Wagdy Navas Facebook"> Facebook </a> | 
+                    <a href="" title=" Wagdy Navas Twitter">  Twitter</a> 
+           </footer>
+           <!--AND FOOTER-->
+       </div>
+
+    </body>
+</html>
